@@ -1,0 +1,142 @@
+@media only screen and (max-width: 668px) {
+    /* Header section start from here */
+    .header_main {
+        padding: 60px 50px;
+    }
+    .header_main h1 {
+        font-weight: 400;
+        font-size: 3em;
+        margin-bottom: 80px;
+    }
+    header .header_content {
+        display: grid;
+    }
+    .header_content h3 {
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    .header_content i {
+        margin-top: 5px;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    /* learn Section Start from Here */
+    .learn_section {
+        padding: 40px 40px;
+        height: auto;
+    }
+    .learn_top {
+        padding: 100px 10px;
+    }
+    .learn_top h1 {
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .learn_bottom {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        justify-items: center;
+    }
+    .learn_bottom div {
+        width: auto;
+    }
+    .learn_bottom h2 {
+        word-spacing: 3px;
+        margin-bottom: 30px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .learn_bottom p {
+        margin-top: 15px;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+    }
+    /* Access section start from here */
+    .access_section {
+        height: auto;
+        width: auto;
+        padding: 20px 20px;
+    }
+    .access_section .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container .left .clr4 {
+        position: absolute;
+        width: 286px;
+        height: 41px;
+        left: 80px;
+        top: 174px;
+        background-color: #F1C50E;
+    }
+    .container .left {
+        padding: 80px 0;
+        width: 80%;
+    }
+    .container .left h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .right .img img {
+        height: 500px;
+        width: 200%;
+    }
+    /* testomonials section starts from here*/
+    .testimonials {
+        background-color: #141824;
+        height: auto;
+        color: #f1f1f1;
+        padding: 35px 15px;
+    }
+    .testimonials_content {
+        margin: 60px 20px;
+    }
+    /* images section start from here */
+    .image_container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .image_container img {
+        height: 500px;
+        width: 100%;
+    }
+    /* earn section start from here */
+    .earn {
+        height: auto;
+        background-color: #E8EAE3;
+    }
+    .earn_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 60px 10px;
+    }
+    .earn_left img {
+        height: 500px;
+        width: 100%;
+    }
+    .earn_right .right_bottom {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0;
+        grid-gap: 0;
+    }
+    /* Footer section Start from here */
+    footer {
+        background: #141824;
+        height: auto;
+        padding: 100px 5px;
+    }
+    .footer_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        margin: 10px;
+    }
+    .footer_container .contact_us {
+        color: #f1f1f1;
+        margin-bottom: 50px;
+    }
+}
